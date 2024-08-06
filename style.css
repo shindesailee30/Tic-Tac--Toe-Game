@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:#FCAB10 ;
+    background-color:#FCAB10;
     text-align: center;
 }
 /* BG COLOR : #FCAB10 ; X -> color #F8333C ; O color -> #2B9EB3*/
@@ -12,6 +12,7 @@ body{
 
 
 .container{
+    margin-top: 30px;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -45,7 +46,8 @@ body{
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:550;
-    background-color: #2B9EB3;
+    color: white;
+    background-color: #550527;
     
 }
    
@@ -57,7 +59,7 @@ body{
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:550;
-    background-color: #2B9EB3;
+    background-color: #7FC6A4;
 }
 .msg_container{
     margin-top: 25px;
@@ -72,4 +74,29 @@ body{
 }
 .hide{
     display: none;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;    
+    text-align: center;
+    color: #550527;
+    font-weight: bold;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+.start_btn{
+    height: 10vmin;
+    width: 20vmin;
+    border: none;
+    border-radius: 10vmin;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:550;
+    color: white;
+    background-color: #550527;
 }
